@@ -8,7 +8,7 @@ namespace Neudesic.PizzaDelivery.Models
     {
         public int ChickenToppingsPrize = 50;
         public int ExtraChickenTopingsPrize = 100;
-        public int TotalPrizeWithTopings { get; set; }
+        public int TotalPrizeWithTopings { get; set; } = 0;
     }
 
     public class ChickenTikka : NonVegPizzas
